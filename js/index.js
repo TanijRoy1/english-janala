@@ -59,7 +59,7 @@ const displayLevelWords = (words) => {
 
   words.forEach((word) => {
     const div = document.createElement("div");
-    div.innerHTML = `<div class="bg-white rounded-xl space-y-5 py-10 px-5">
+    div.innerHTML = `<div class="bg-white rounded-xl space-y-5 py-10 px-5 shadow-sm">
                              <h1 class="text-2xl font-bold">${
                                word.word ? word.word : "শব্দটি পাওয়া যায়নি"
                              }</h1> 
